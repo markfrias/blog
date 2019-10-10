@@ -87,7 +87,19 @@ body {
     width: 50%;
     margin: auto;
     justify-content: center;
-    
+}
+
+.load-more-button button {
+    width: 65%;
+    border-radius: 0%;
+    border-style: none;
+    font-family: "Times New Roman";
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    margin: 75px 0px;
 }
 
 
