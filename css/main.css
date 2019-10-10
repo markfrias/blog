@@ -1,0 +1,33 @@
+/* HTML, body styles */
+html, body {
+    background-color: #DBDBDB;
+}
+
+/* body styles */
+body {
+    margin: 0% 5%;
+}
+/* Navbar styles */
+.navbar {
+    display: flex;
+    
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+  
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
