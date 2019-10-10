@@ -47,4 +47,38 @@ body {
     align-items: center;
 }
 
+/* Main content grid styles */
+.main-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 250px 400px 400px;
+  
+}
+
+/* Grid item styles */
+.item-1 {
+    background-color: black;
+    grid-column: 1 / 3;
+}
+
+.item-2 {
+    background-color: black;
+}
+
+.item-3 {
+    background-color: black;
+    grid-column: 1 / 2;
+}
+
+.item-4 {
+    background-color: black;
+    grid-column: 2 / 4;
+}
+
+.item-small {
+    background-color: black;
+    
+}
+
 
