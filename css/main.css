@@ -36,3 +36,13 @@ body {
     width: 100%;
 }
 
+/* Recent articles label styles */
+.recent-articles-label {
+    display: flex;
+    height: 50px;
+    width: 50%;
+    border: 1px solid black;
+    margin: 25px auto;
+}
+
+
