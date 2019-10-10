@@ -18,8 +18,6 @@ body {
     display: flex;
     list-style: none;
     align-items: center;
-    
-  
 }
 
 .navbar ul li {
@@ -29,6 +27,8 @@ body {
 .navbar ul li a {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 /* Cover article styles */
