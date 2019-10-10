@@ -41,7 +41,15 @@ body {
     
 }
 
-
+/* Cover article caption styles */
+.caption-box {
+    background-color: rgba(2, 2, 2, 0.116);
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
 
 /* Recent articles label styles */
 .recent-articles-label {
