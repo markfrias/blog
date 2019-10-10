@@ -47,8 +47,29 @@ body {
     width: 30%;
     height: 60%;
     position: absolute;
-    top: 40%;
+    top: 40.1%;
     left: 60%;
+    text-align: center;
+}
+
+.caption-box h2 {
+    font-size: 3rem;
+}
+
+.caption-box h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.caption-box p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+.caption-box p a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Recent articles label styles */
