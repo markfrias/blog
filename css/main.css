@@ -101,6 +101,7 @@ body {
 
 .item-2 {
     background-color: rgba(255, 255, 255, 0.45);
+    
 }
 
 .item-3 {
@@ -111,6 +112,7 @@ body {
 .item-4 {
     background-color: rgba(255, 255, 255, 0.45);
     grid-column: 2 / 4;
+    display: flex;
 }
 
 .item-small {
@@ -135,7 +137,9 @@ body {
     margin: 0px 20px;
 }
 
-
+.card-content-1 p {
+    margin-top: 15%;
+}
 
 
 
