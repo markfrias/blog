@@ -205,8 +205,12 @@ footer h2 {
 
 /* Article page styles */
 .cover-title {
-    width: 100%;
-    height: 20vh;
+    width: 70%;
+    height: 15vh;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cover-title h2 {
@@ -219,14 +223,12 @@ footer h2 {
     margin: 5px 0px;
 }
 
-.cover-photo {
-    width: 100%;
-    height: 70vh;
-}
-
 .cover-photo img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
