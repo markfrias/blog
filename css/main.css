@@ -247,4 +247,43 @@ footer {
     font-size: 21.5px;
 }
 
+/* About page styles */
+.profile-header {
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+} 
+
+.profile-picture {
+    width: 20%;
+    height: auto;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.profile-name {
+    width: 80%;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.profile-name h2 {
+    font-size: 2rem;
+}
+
+.profile-name h3 {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.profile-name p {
+    font-size: 1.2rem;
+}
+
 
