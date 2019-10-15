@@ -293,4 +293,9 @@ footer {
     margin: 2vh 0px;
 }
 
+/* Styles for social media icons link in the footer */
+footer h2 a {
+    color: black;
+}
+
 
