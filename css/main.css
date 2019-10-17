@@ -311,4 +311,29 @@ footer h2 a {
     margin-right: 20px;
 }
 
+/* Styles for contacts form */
+.contact-form {
+    margin-top: 5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form #subject-input {
+    height: 40px;
+}
+
+form #message-input {
+    height: 150px;
+}
+
+form button {
+    width: 10%;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
 
