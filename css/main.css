@@ -314,6 +314,7 @@ footer h2 a {
 /* Styles for contacts form */
 .contact-form {
     margin-top: 5vh;
+    margin-left: 25%;
 }
 
 form {
@@ -334,6 +335,10 @@ form button {
     width: 10%;
     border-radius: 0px;
     margin-top: 10px;
+}
+
+body h2 {
+    font-size: 2rem;
 }
 
 
