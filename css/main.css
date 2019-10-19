@@ -226,7 +226,7 @@ footer {
 }
 
 .profile-name {
-    width: 80%;
+    width: 50%;
     height: auto;
     margin-left: 5vw;
     display: flex;
@@ -270,7 +270,7 @@ footer h2 a {
 
 /* Styles for contacts form */
 .contact-form {
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-left: 25%;
 }
 
@@ -296,6 +296,24 @@ form button {
 
 body h2 {
     font-size: 2rem;
+}
+
+/* Styles for about-blog */
+.about-blog {
+    margin-left: 25.75%;
+    margin-top: 10vh;
+    width: 50%;
+}
+
+.about-blog p {
+    font-size: 1.2rem;
+}
+
+/* Styles for site logo */
+.navbar h1{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 
