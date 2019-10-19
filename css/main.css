@@ -28,28 +28,31 @@ body {
     text-decoration: none;
     color: black;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Cover article styles */
 .cover-article {
-    background-image: url("../img/cover-image.jpg");
+    background-image: url("../img/ubuntu-article-cover.jpg");
     width: 100%;
     height: 90vh;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
     
 }
 
 /* Cover article caption styles */
 .caption-box {
     background-color: rgba(2, 2, 2, 0.116);
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    top: 37%;
-    left: 60%;
+    width: 40%;
+    height: 100%;
     text-align: center;
+    color: white;
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .caption-box h2 {
@@ -68,7 +71,7 @@ body {
 }
 
 .caption-box p a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -77,7 +80,6 @@ body {
     display: flex;
     height: 50px;
     width: 30%;
-    border: 1px dotted black;
     margin: 25px auto;
     justify-content: center;
     align-items: center;
@@ -275,7 +277,7 @@ footer h2 a {
 /* Styles for contacts form */
 .contact-form {
     margin-top: 10vh;
-    margin-left: 25%;
+    margin-left: 25.75%;
 }
 
 form {
@@ -290,16 +292,33 @@ form #subject-input {
 
 form #message-input {
     height: 150px;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'sans-serif';
 }
 
 form button {
-    width: 10%;
+    width: 12.5%;
     border-radius: 0px;
     margin-top: 10px;
 }
 
+form label {
+    font-size: 1.25rem;
+}
+
+form input {
+    margin-bottom: 25px;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
 body h2 {
     font-size: 2rem;
+}
+
+#submit-button {
+    height: 35px;
+    font-size: 1rem;
 }
 
 /* Styles for about-blog */
@@ -323,14 +342,65 @@ body h2 {
 /* Styles for all links in the body */
 body a:hover  {
     color: gray;
-    width: 300px;
-}
-
-body a {
-    transition: width 2s;
 }
 
 .navbar ul li a:hover{
     color: gray;
 }
 
+/* Styles for hover link for title logo */
+.navbar a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .caption-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .item-1 {
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .card-content-1 {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .recent-articles-label {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .item-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thumbnail-1 img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .card-content-1 {
+        text-align: center;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    }
+}
