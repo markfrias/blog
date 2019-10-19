@@ -1,0 +1,355 @@
+/* HTML, body styles */
+html, body {
+    background-color: #DBDBDB;
+}
+
+/* body styles */
+body {
+    margin: 0% 5%;
+    font-family: 'Noto Serif', serif;
+}
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* Cover article styles */
+.cover-article {
+    background-image: url("../img/cover-image.jpg");
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/* Cover article caption styles */
+.caption-box {
+    background-color: rgba(2, 2, 2, 0.116);
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    top: 37%;
+    left: 60%;
+    text-align: center;
+}
+
+.caption-box h2 {
+    font-size: 3rem;
+}
+
+.caption-box h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.caption-box p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+.caption-box p a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Recent articles label styles */
+.recent-articles-label {
+    display: flex;
+    height: 50px;
+    width: 30%;
+    border: 1px dotted black;
+    margin: 25px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main content grid styles */
+.recents-container {
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: column;
+}
+
+/* Grid item styles */
+.item-1 {
+    display: flex;
+    height: 25vh;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+/* Grid card styles */
+.thumbnail-1 {
+    width: auto;
+}
+
+.thumbnail-1 img {
+    width: 300px;
+    height: 225px;
+}
+
+.card-content-1 {
+    width: 35vw;
+    text-align: left;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content-1 h3 {
+    font-size: 30px;
+    margin: 1% 0%;
+    font-weight: 600;
+}
+
+.content-title-1 {
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card-content-1 p {
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+/* Load more button styles */
+.load-more-button {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.load-more-button button {
+    width: 65%;
+    border-radius: 0%;
+    border-style: none;
+    font-family: "Times New Roman";
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    margin: 75px 0px;
+}
+
+/* Footer styles */
+footer h2 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+/* Article page styles */
+.cover-title {
+    width: 70%;
+    height: 20vh;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover-title h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.cover-title p {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+
+.cover-photo img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-text {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    letter-spacing: -.1;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.77;
+    font-size: 21.5px;
+}
+
+.article-text img {
+    width: 100%;
+    height: auto;
+}
+
+/* About page styles */
+.profile-header {
+    margin-top: 10vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+} 
+
+.profile-picture {
+    width: 20%;
+    height: auto;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.profile-name {
+    width: 50%;
+    height: auto;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.profile-name h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.profile-name h3 {
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 2vh 0px;
+}
+
+.profile-name p {
+    font-size: 1.2rem;
+    margin: 2vh 0px;
+}
+
+/* Styles for social media icons link in the footer */
+footer h2 a {
+    color: black;
+}
+
+/* Styles for social media links */
+.social-media-links {
+    margin-top: 25px;
+    width: 25vw;
+    height: 5vh;
+}
+
+.social-media-links img {
+    height: 100%;
+    margin-right: 20px;
+}
+
+/* Styles for contacts form */
+.contact-form {
+    margin-top: 10vh;
+    margin-left: 25.75%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form #subject-input {
+    height: 40px;
+}
+
+form #message-input {
+    height: 150px;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
+form button {
+    width: 12.5%;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+
+form label {
+    font-size: 1.25rem;
+}
+
+form input {
+    margin-bottom: 25px;
+    font-size: 1rem;
+    font-family: 'Noto Sans', 'sans-serif';
+}
+
+body h2 {
+    font-size: 2rem;
+}
+
+#submit-button {
+    height: 35px;
+    font-size: 1rem;
+}
+
+/* Styles for about-blog */
+.about-blog {
+    margin-left: 25.75%;
+    margin-top: 10vh;
+    width: 50%;
+}
+
+.about-blog p {
+    font-size: 1.2rem;
+}
+
+/* Styles for site logo */
+.navbar h1{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* Styles for all links in the body */
+body a:hover  {
+    color: gray;
+}
+
+.navbar ul li a:hover{
+    color: gray;
+}
+
+/* Styles for hover link for title logo */
+.navbar a {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+     
