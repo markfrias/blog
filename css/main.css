@@ -12,7 +12,6 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-
 }
 
 .navbar ul {
@@ -168,7 +167,7 @@ footer {
 /* Article page styles */
 .cover-title {
     width: 70%;
-    height: 15vh;
+    height: 20vh;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -203,6 +202,11 @@ footer {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.77;
     font-size: 21.5px;
+}
+
+.article-text img {
+    width: 100%;
+    height: auto;
 }
 
 /* About page styles */
@@ -316,4 +320,17 @@ body h2 {
     font-weight: 600;
 }
 
+/* Styles for all links in the body */
+body a:hover  {
+    color: gray;
+    width: 300px;
+}
+
+body a {
+    transition: width 2s;
+}
+
+.navbar ul li a:hover{
+    color: gray;
+}
 
