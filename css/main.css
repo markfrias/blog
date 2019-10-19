@@ -326,6 +326,7 @@ body h2 {
     margin-left: 25.75%;
     margin-top: 10vh;
     width: 50%;
+    margin-bottom: 20vh;
 }
 
 .about-blog p {
@@ -370,6 +371,11 @@ body a:hover  {
     .card-content-1 {
         justify-content: start;
     }
+
+    .profile-picture {
+        width: 250px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -393,6 +399,33 @@ body a:hover  {
         text-align: center;
         width: 75%;
     }
+
+    .profile-name {
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+    .profile-header {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .profile-picture {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-blog {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -404,3 +437,18 @@ body a:hover  {
     overflow-x: hidden; 
     }
 }
+
+@media screen and (max-width: 1004px) {
+    .profile-header, .about-blog {
+        justify-content: center;
+    }
+
+    .social-media-links {
+        width: auto;
+    }
+
+    .about-blog {
+        text-align: center;
+    }
+}
+
