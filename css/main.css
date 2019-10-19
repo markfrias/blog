@@ -155,25 +155,6 @@ body {
     font-size: 20px;
 }
 
-
-.thumbnail-small {
-    width: 100%;
-    height: 50%;
-
-}
-
-.thumbnail-small img {
-    width: 100%;
-    height: 100%;
-}
-
-.card-content-small {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-
-
 /* Load more button styles */
 .load-more-button {
     display: flex;
